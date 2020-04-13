@@ -1,0 +1,10 @@
+/* Style for "grenzenlos" */
+width: 1795px;
+height: 404px;
+opacity: 0.16;
+color: #000000;
+font-family: "Lato - Black";
+font-size: 220px;
+font-weight: 400;
+line-height: 240px;
+text-transform: uppercase;

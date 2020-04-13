@@ -1,0 +1,102 @@
+/* MENU ====================================================== */
+/* PSD Style for rectangle 10 */
+.rctngl_10{
+    width: 100%;    /* 1920px; */
+	height: 12.04%;  /* = 130px*100%:1080px; */
+	border: 3px solid #050505;
+	background-color: #000000;
+    opacity: 0.7;
+    
+	position:absolute;
+	right: 0;
+	bottom:-9.7%;     /* = 105px * 100%:1080px */	
+    z-index: 4;
+}
+/* HEADER ====================================================== */
+/* PSD Style for rectangle 2  (malevich) */
+.rctngl_2{	
+	height: 100%;/* 403px; */
+	border: 3px solid #050505;
+	background-color: #000000;
+    opacity: 0.7;
+
+	position:absolute;
+	right: 0;
+}
+/* PSD Style for rectangle 3 "jetzt starten" */
+.rctngl_3{
+    width: 13.4%;/* = 257px*100%:1920px; */
+	height: 5.9%;/* = 64px*100%:1080; */
+	border-radius: 2px;
+    background-color: #463ee0;
+    
+	position:absolute;
+	right: 25.16%;
+	bottom:-2.96%; /* 73px */	
+    z-index: 4;
+}
+.txt_jetzt {
+/* width: 177px;
+height: 18px; */
+text-align: center;
+color: #ffffff;
+font-family: Lato;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-transform: uppercase;
+/* Text style for "jetzt star" */
+letter-spacing: 0.24px;
+}
+/* PSD Style for "Sie sind Reiseverkehrskauffrau/-mann und träumen von einer risikoarmen Selbständigkeit? 
+Dann werden Sie Kooperationspartner von TAKE OFF, HOLIDAY PROFIS oder FERIA. */
+.rctngl_siesind{
+    width: 27.9%;   /* 535px */
+    height: 13.3%;  /* 144px */
+
+    border: 5px solid red;
+	background-color: red;
+
+    position:absolute;
+	right: 10.63%;
+	bottom:15%; /* 105px */	
+    z-index: 4;
+ /*
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+*/
+    /* Text style for "S, ie sind" */
+/*
+    font-family: "Lato - Regular";
+    font-weight: 400;
+    /* Text style for "TAKE OFF," */
+/*
+    font-family: "Lato - Bold";
+    font-weight: 700;
+*/
+}
+/* PSD Style "Wir nehmen sie mit in  die Reiseberatung der Zukunft" */
+    .rctngl_wirnehmen {
+    width: 48.22% ;/* 926px */
+    height: 12.13%; /* 131px */
+
+    border: 5px solid red;
+	background-color: red;
+
+    position:absolute;
+	left:5.26%;
+	bottom:3%; /* 105px */	
+    z-index: 4;
+    /*
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.52);
+    color: #ffffff;
+    font-family: "Lato - Black";
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 68px;
+    */
+}
+/* SECTION 1 ==================================================== */

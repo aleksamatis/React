@@ -1,0 +1,241 @@
+@import 'bootstrap.css';
+
+.border_red{
+    border: 1px solid red;  
+}
+.grid-container {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.menu {	
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+	justify-content: space-between; 
+    /* align-items: stretch;  */
+    align-items: center;  
+	background-color: #000000;
+    opacity: 0.7; 
+   
+}
+.grid-container .menu img {
+    filter: gray;
+    filter: grayscale(100%) opacity(60%);
+    -webkit-filter: grayscale(100%) opacity(60%);
+}
+.grid-container .menu img:hover{
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+.header1 {
+  position: relative;
+}
+.menu a:hover{
+   background-color: #c3baba;
+   text-decoration: none; 
+}
+/**********************************************************************-----------------------*/
+ 
+ /* Шрифты на страницу и подчеркивание */
+
+ .text_container {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.2fr
+}
+
+.header {
+    display: inline;
+    color: #000000;
+    font-family: "Bebas Neue Regular";
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    grid-column-start: 2;
+}
+
+.text_block {
+    color: #333333;
+    font-family: "Assistant";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39.01px;
+    grid-column-start: 2;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_right {
+    text-align: right;
+}
+ 
+.header hr { 
+	width: 100%;
+    border: none; /* Убираем границу */
+    background-color: #000; /* Цвет линии */
+    color: red; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+}
+
+/**********************************************************************-----------------------*/
+
+ /* Стили для меню */
+ .s_hmenu {	
+    grid-area: hmenu;
+    display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	background-color: #000000;
+    opacity: 0.7;
+}
+.images{width: 53.2%; margin-top: 0.3%;
+}
+.items{width:46.8%;  margin-top: 0.1%;
+}
+.s_hmenu ul {
+	margin: 0;
+	padding: 4px;
+}
+.s_hmenu li {
+	display: inline;
+	margin-right: 5px;
+	border: 1px solid #000;
+	padding: 3px;
+}
+a{ 
+	color: #ffffff;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'Lato';
+	font-weight: 700px;
+	text-transform: uppercase;
+	letter-spacing: 0.18px;
+	font-size:18px;
+}
+.s_hmew{
+    position: relative;
+}
+ .s_rectangle{	
+    width: 73.4%;/* 1410px; */
+	height: 42.8%;/* 403px; */
+	border: 3px solid #050505;
+	background-color: #000000;
+	opacity: 0.7;
+	position:absolute;
+	right: 0;
+	bottom:-7%; /* 105px */	
+    z-index: 4;
+}
+.s_split_row {
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.sie_sind{
+    position: relative;
+    margin-top: -100px;
+}
+.sie_sind_2{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+}
+.nehmen_1{
+    /* Style for "Wir nehmen" */
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.52);
+    color: #ffffff;
+    font-family: "Lato";
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 53px;
+}
+.nehmen_2{
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.first{
+    text-transform: uppercase;
+    background-color: #463ee0;
+    width: 257px;
+    height: 64px;
+    border-radius: 2px;
+}
+/****************************SECTION=FOOTER=SIX=COLUMNS******************************************-----------------------*/
+
+.header_sfooter {
+    color: #000000;
+    font-family: "Bebas Neue Regular";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;  
+    letter-spacing: 1.83px;
+}
+.sub_sfooter {
+    color: #333333;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.01px;
+}
+.sub_sfooter li{
+	list-style: none; 
+}
+.sub_sfooter li:before { 
+    content: "";
+	background-image: url(../images/elips.png);
+	background-size: cover;
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin-right: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header_sfooter hr { 
+	width: 100%;
+    border: none; 
+    background-color: #000; 
+    color: red; 
+    height: 2px; 
+}
+
+/****************************SECTION=VIDEO&IMG******************************************-----------------------*/
+.s_video{
+    width: 45%;/* 1410px; */
+	height: 42.8%;/* 403px; */
+	position:absolute;
+	right: 3%;
+	bottom:35%; /* 105px */	
+}
+/****************************SECTION=WOMEN=AND-TELEPHON******************************************-----------------------*/
+
+.s_footer_telephon{
+    /* Style for "0511 / 898" */
+    font-size: 44px;
+    font-weight: 600;
+}
+.class_to_p{
+    color: #333333;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.02px;
+}
+.grey{
+    background-color: #f5f5f5;
+}
+.pather{
+    color: #333333;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.02px;
+}
+
+ 
